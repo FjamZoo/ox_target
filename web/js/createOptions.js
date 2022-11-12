@@ -9,7 +9,7 @@ export function createOptions(type, data, id) {
   option.className = "option-container";
   option.innerHTML = `
       <i class="fa-fw ${data.icon} option-icon" style="color:${
-    data.iconColor || "#06cd98"
+    data.iconColor || "#09FBBD"
   }"></i>
       <p class="option-label">${data.label}</p>
     `;

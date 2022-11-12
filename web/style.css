@@ -17,13 +17,14 @@ p {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
 }
 
-#eye-container {
+#eye {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 22pt;
 }
+
 
 #options-wrapper {
   position: absolute;
@@ -50,7 +51,7 @@ p {
 }
 
 .option-container:hover {
-  color: #06cd98;
+  color: #09FBBD;
 }
 
 .option-icon {
